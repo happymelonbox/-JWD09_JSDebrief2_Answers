@@ -15,13 +15,6 @@ function distanceFromHqInBlocks(customer){
 };
 customerBlocks = distanceFromHqInBlocks(customer);
 
-/*function distanceFromHqInFeet(){
-    return customerBlocks * blockInFeet;
-   ;
-}
-distanceFromHqInFeet();
-*/
-
 function distanceFromHqInFeet(customer){
     if (customer >= hq){
         customerFeet = ((customer - hq) * blockInFeet);
